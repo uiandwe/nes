@@ -1,0 +1,11 @@
+requests
+pandas
+numpy
+pathlib
+beautifulsoup4
+psycopg2-binary
+sqlalchemy
+pymongo
+apache-airflow
+apache-airflow-providers-ssh
+apache-airflow-providers-papermill
