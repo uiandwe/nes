@@ -16,6 +16,9 @@ services:
       - ./secrets.json:/etc/airflow/secrets.json
   jupyter:
     image: 'jupyter/base-notebook:latest'
+    user: root
+    environment:
+      - GRANT_SUDO=yes
     volumes:
       - ./dags:/opt/airflow/dags/
       - ./data:/opt/airflow/data
